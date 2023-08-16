@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
 pragma solidity ^0.8.17;
 
+// Author: @adairxie
 contract MultiSigWallet {
     event Deposit(address indexed sender, uint amount, uint balance);
     event SubmitTransaction(
